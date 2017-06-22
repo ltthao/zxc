@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heade_size"
+        android:orientation="horizontal"
+        style="@style/AppTabLayout">
+        <!--btn mới nhất-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/AppTabLayout"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:id="@+id/btn1" />
+        <!--btn Danh mục-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            style="@style/AppTabLayout"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:id="@+id/btn2" />
+        <!--btn Tỉnh-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            style="@style/AppTabLayout"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:id="@+id/btn3" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:layout_height="30dp">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="5dp"
+        android:padding="4dp"
+        android:src="@drawable/home_ic_filter_most_near"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:text="Gần tôi"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_marginLeft="5dp"
+        android:layout_width="35dp"
+        android:layout_height="23dp"
+        style="@style/AppTabLayout"
+        android:text="New"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/custombtn"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:id="@+id/view" />
+
+
+    <ImageView
+        android:id="@+id/imgSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/stick_icon"
+        />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn đã tạo thành công địa điểm mới. Bạn muốn thực hiện tiếp các thao tác sau:"
+        android:textSize="16sp"
+        style="@style/AppTabLayout"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/Gray3"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem trước địa điểm này"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        style="@style/AppTabLayout"
+        android:padding="10dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/Gray3"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check-in"
+        android:textSize="16sp"
+        style="@style/AppTabLayout"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/Gray3"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ảnh"
+        android:textSize="16sp"
+        style="@style/AppTabLayout"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/Gray3"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:id="@+id/txtNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Không, để sau"
+        android:textSize="16sp"
+        style="@style/AppTabLayout"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+</LinearLayout>

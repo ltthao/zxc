@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/img_select_City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/stick_icon" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txt_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="6dp"
+        android:drawableTint="@color/colorFoody"
+        android:textColor="@color/black"
+        android:text="TPHCM"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"/>
+    <TextView
+        android:id="@+id/txt_city_select"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:text="Mặc định"
+        android:textColor="@color/color_city_select"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:background="@drawable/custom_btn_macdinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+    <!--android:drawableLeft="@drawable/ic_check_black_24dp"ic_check_black_24dp-->
+</LinearLayout>

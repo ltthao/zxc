@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.Login_Register"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginBottom="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Đăng ký"
+            android:textColor="@color/white"
+            android:gravity="top"
+            android:paddingBottom="10dp"
+            android:textSize="16dp"/>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="15dp"
+            android:id="@+id/edEmail"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:textColorHint="@color/colorEditText"
+            android:background="@drawable/border_email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:inputType="textPassword"
+            android:layout_below="@+id/edEmail"
+            android:id="@+id/edPass"
+            android:textColorHint="@color/colorEditText"
+            android:background="@drawable/border_email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:layout_below="@+id/edPass"
+            android:id="@+id/edRepass"
+            android:textColorHint="@color/colorEditText"
+            android:background="@drawable/border_email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên hiển thị"
+            android:textSize="15dp"
+            android:layout_below="@+id/edRepass"
+            android:textColor="@color/white"
+            android:id="@+id/edUserName"
+            android:textColorHint="@color/colorEditText"
+            android:background="@drawable/border_email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:id="@+id/txt_register"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/edUserName"
+            android:background="@drawable/border_white"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu phải có ít nhất là 4 kí tự."
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:id="@+id/login_byemail_forgetpass"
+            android:layout_below="@+id/txt_register"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

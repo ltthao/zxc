@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lttha.a14110180_lethithao_foody">
+<!--thực hiện hoạt động truy cập mạng-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.CollectionActivity" />
+        <activity android:name=".Activity.SearchActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity
+            android:name=".Activity.Fragment.ChangeCityActivity"
+            android:parentActivityName=".Activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.CategoryType"
+            android:parentActivityName=".Activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ScreenFoody"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.AddLocation"
+            android:parentActivityName=".Activity.HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.Login"
+            android:parentActivityName=".Activity.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.LoginWithEmail"
+            android:parentActivityName=".Activity.Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Login" />
+        </activity>
+        <activity
+            android:name=".Activity.Login_Register"
+            android:parentActivityName=".Activity.Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Login" />
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Activity.Profile_Information"
+            android:parentActivityName=".Activity.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ProfileSetting"
+            android:parentActivityName=".Activity.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ChangePass"
+            android:parentActivityName=".Activity.ProfileSetting">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ProfileSetting" />
+        </activity>
+        <activity android:name=".Activity.ChangeAvatar"
+            android:parentActivityName=".Activity.ProfileSetting">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ProfileSetting" />
+        </activity>
+    </application>
+
+</manifest>

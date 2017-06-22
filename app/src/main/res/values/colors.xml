@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="black">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+
+
+    <color name="theme_color_primary">#1c9359</color>
+    <color name="theme_color_primary_light">#3aaf75</color>
+    <color name="theme_color_accent">#084e43</color>
+    <color name="green1">#83C75D</color>
+    <color name="color_green">#03ae03</color>
+    <color name="color_city_select">#00f</color>
+    <color name="color_blue">#01A9DB</color>
+    <color name="colorBlue">#034EA1</color>
+    <color name="colorTwitter">#2EA6DE</color>
+    <color name="colorFacebook">#3C579E</color>
+
+
+    <color name="tab_border">#a7a7aa</color>
+    <color name="tab_background">#f6f6f7</color>
+    <color name="colorEditText">#BDBDBD</color>
+    <color name="Gray1">#EEEEEE</color>
+    <color name="Gray3">#D8D8D8</color>
+    <color name="Gray2">#E6E6E6</color>
+
+    <color name="colorPrimary">#D50000</color>
+    <color name="colorPrimaryDark">#BF2634</color>
+    <color name="colorFoody">#c00</color>
+    <color name="colorAccent">#E3892F</color>
+    <color name="white">#ffffff</color>
+
+    <color name="backg">#EEEEEE</color>
+
+
+    <color name="colorGoogle">#B23121</color>
+    <color name="colorYahoo">#720E9E</color>
+    <color name="colorWhite_Transparent">#2fffffff</color>
+</resources>

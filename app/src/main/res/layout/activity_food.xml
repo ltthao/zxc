@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#EEEEEE"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_food_header"/>
+
+    <!--linear chưa phần nội dung được hiển thị lên frameLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--frame của Mới nhất-->
+        <FrameLayout
+            android:id="@+id/outputMN"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+        <!--frame Danh mục-->
+        <FrameLayout
+            android:id="@+id/outputDM"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            />
+        <!--frame tỉnh-->
+        <FrameLayout
+            android:id="@+id/outputT"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            />
+        <include layout="@layout/layout_food_content"/>
+
+    </LinearLayout>
+</LinearLayout>

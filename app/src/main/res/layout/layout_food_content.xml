@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/outputMainFood"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/lnContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/pagerF"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+            </android.support.v4.view.ViewPager>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gridFood"
+                android:numColumns="auto_fit"
+                android:gravity="center"
+                android:columnWidth="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:stretchMode="columnWidth"
+                android:horizontalSpacing="15dp"
+                android:verticalSpacing="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/gvFoodItem"
+                android:numColumns="auto_fit"
+                android:gravity="center"
+                android:columnWidth="67dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:stretchMode="columnWidth"
+                android:horizontalSpacing="10dp"
+                android:verticalSpacing="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
